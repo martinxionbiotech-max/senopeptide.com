@@ -1,0 +1,168 @@
+site_name: SENO Biotechnology — Technical Documentation
+site_description: Official technical documentation for SENO Biotechnology peptide synthesis, purification technologies, analytical methods, and quality control systems.
+site_url: https://docs.senopeptide.com
+site_author: SENO Biotechnology
+copyright: © 2026 Zhangjiakou SENO Biotechnology Co., Ltd. All rights reserved.
+
+repo_url: https://github.com/senobiotech/seno-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.png
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.critic
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://senopeptide.com
+      name: SENO Biotechnology Official Website
+  tags:
+    equipment: Production Equipment
+    process: Technical Process
+    quality: Quality Systems
+    platform: Technology Platform
+    sop: Standard Operating Procedure
+    specification: Technical Specification
+
+nav:
+  - Home: index.md
+  - Manufacturing Equipment:
+    - Overview: equipment/index.md
+    - SPPS Synthesis Reactor:
+      - Technical Specification: equipment/spps-reactor/spec-spps-reactor.md
+      - SOP: equipment/spps-reactor/sop-spps-operation.md
+    - Preparative HPLC System:
+      - Technical Specification: equipment/preparative-hplc/spec-prep-hplc.md
+      - SOP: equipment/preparative-hplc/sop-prep-hplc.md
+    - Analytical HPLC System:
+      - Technical Specification: equipment/analytical-hplc/spec-analytical-hplc.md
+      - SOP: equipment/analytical-hplc/sop-analytical-hplc.md
+    - LC-MS System:
+      - Technical Specification: equipment/lc-ms/spec-lc-ms.md
+      - SOP: equipment/lc-ms/sop-lc-ms.md
+    - Lyophilizer:
+      - Technical Specification: equipment/lyophilizer/spec-lyophilizer.md
+      - SOP: equipment/lyophilizer/sop-lyophilization.md
+    - Water Purification System:
+      - Technical Specification: equipment/water-system/spec-water-system.md
+      - SOP: equipment/water-system/sop-water-system.md
+    - Centrifuge:
+      - Technical Specification: equipment/centrifuge/spec-centrifuge.md
+      - SOP: equipment/centrifuge/sop-centrifuge.md
+    - Rotary Evaporator:
+      - Technical Specification: equipment/rotary-evaporator/spec-rotary-evaporator.md
+      - SOP: equipment/rotary-evaporator/sop-rotary-evaporator.md
+    - Karl Fischer Titrator:
+      - Technical Specification: equipment/karl-fischer/spec-karl-fischer.md
+      - SOP: equipment/karl-fischer/sop-karl-fischer.md
+    - GC-FID (Headspace):
+      - Technical Specification: equipment/gc-fid/spec-gc-fid.md
+      - SOP: equipment/gc-fid/sop-gc-fid.md
+    - UV-Vis Spectrophotometer:
+      - Technical Specification: equipment/uv-vis/spec-uv-vis.md
+      - SOP: equipment/uv-vis/sop-uv-vis.md
+    - LAL Endotoxin Test:
+      - Technical Specification: equipment/lal-test/spec-lal-test.md
+      - SOP: equipment/lal-test/sop-lal-test.md
+    - Environmental Monitoring:
+      - Technical Specification: equipment/environmental-monitoring/spec-environmental-monitoring.md
+      - SOP: equipment/environmental-monitoring/sop-environmental-monitoring.md
+    - Stability Chamber:
+      - Technical Specification: equipment/stability-chamber/spec-stability-chamber.md
+      - SOP: equipment/stability-chamber/sop-stability-chamber.md
+  - Technical Processes:
+    - Overview: processes/index.md
+    - Peptide Synthesis:
+      - SPPS Solid-Phase Process: processes/peptide-synthesis/spps-process.md
+    - HPLC Purification:
+      - Purification Process: processes/hplc-purification/hplc-purification-process.md
+    - Lyophilization:
+      - Freeze-Drying Process: processes/lyophilization/lyophilization-process.md
+    - Quality Control Analysis:
+      - Analytical Methods Overview: processes/qc-analysis/analytical-methods-overview.md
+    - Mass Spectrometry:
+      - MS Analysis Process: processes/mass-spec/mass-spec-analysis.md
+    - QC Workflow Overview: processes/qc-workflow/qc-workflow-overview.md
+    - Method Development:
+      - HPLC Method Development Guide: processes/method-development/method-development-guide.md
+    - Solubility Guide:
+      - Peptide Solubility Guide: processes/solubility-guide/peptide-solubility-guide.md
+    - Counterion Exchange:
+      - TFA to Acetate/HCl Conversion: processes/counterion-exchange/counterion-exchange-process.md
+    - Equipment Qualification:
+      - IQ/OQ/PQ Protocol: processes/equipment-qualification/equipment-qualification-iopq.md
+    - Cleaning Validation:
+      - Cleaning Validation Protocol: processes/cleaning-validation/cleaning-validation-protocol.md
+    - Stability Studies:
+      - Stability Study Protocol: processes/stability-study/stability-study-protocol.md
+    - Packaging & Labeling:
+      - Specification: processes/packaging/packaging-and-labeling-specifications.md
+    - Scale-Up Guide:
+      - Peptide Scale-Up Guide: processes/scale-up/peptide-scale-up-guide.md
+    - Supplier Management:
+      - Supplier Management Procedure: processes/supplier-management/supplier-management-procedure.md
+  - Quality Systems:
+    - Overview: quality/index.md
+    - Quality Management System: quality/qms/quality-management-system.md
+    - Analytical Method Validation: quality/method-validation/analytical-method-validation.md
+    - Reference Standards: quality/reference-standards/reference-standards-management.md
+  - Technology Platforms:
+    - Overview: platforms/index.md
+    - SDP™ Soluble Dimer Protein: platforms/sdp/sdp-platform-technology.md
+    - MAP-VLP Platform: platforms/map-vlp/map-vlp-platform-technology.md
+  - FAQ: faq/index.md
+  - Safety & Compliance:
+    - Chemical Safety & SDS: safety/chemical-safety/chemical-safety-and-sds-management.md
+    - Waste Disposal: safety/waste-disposal/waste-disposal-procedures.md
+    - Training Management: safety/training/training-management-procedure.md
+  - About:
+    - Manufacturing Capabilities: about/manufacturing-capabilities.md
+    - Contact: about/contact.md
+  - Tags: tags.md
+
+extra_css:
+  - assets/css/custom.css

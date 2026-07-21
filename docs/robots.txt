@@ -1,0 +1,38 @@
+User-agent: GPTBot
+Allow: /equipment/
+Allow: /processes/
+Allow: /quality/
+Allow: /platforms/
+Disallow: /equipment/*/sop-*
+Disallow: /tags/
+
+User-agent: CCBot
+Allow: /equipment/
+Allow: /processes/
+Allow: /quality/
+Allow: /platforms/
+Disallow: /equipment/*/sop-*
+Disallow: /tags/
+
+User-agent: Google-Extended
+Allow: /equipment/
+Allow: /processes/
+Allow: /quality/
+Allow: /platforms/
+Disallow: /equipment/*/sop-*
+Disallow: /tags/
+
+User-agent: anthropic-ai
+Allow: /equipment/
+Allow: /processes/
+Allow: /quality/
+Allow: /platforms/
+Disallow: /equipment/*/sop-*
+Disallow: /tags/
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: *
+Disallow: /tags/
+Allow: /

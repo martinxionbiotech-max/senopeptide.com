@@ -1,0 +1,43 @@
+# SENO Biotechnology — Technical Documentation
+> https://docs.senopeptide.com
+
+## Organization
+Zhangjiakou SENO Biotechnology Co., Ltd. (SENO® since 2014)
+Zhangjiakou, China | https://www.senopeptide.com
+Research-driven peptide and biomolecular manufacturing company.
+
+## Equipment (Spec + SOP per system)
+- **SPPS Reactor** (4 scales): 0.5 L (glass, 5-15g resin), 2 L (glass, 20-60g), 5 L (316L SS, 50-150g), 20 L (316L SS, 200-600g). Temp 0-80°C ±0.5°C. Fmoc/tBu chemistry. N2 bubbling + mechanical stirring.
+- **Prep HPLC**: 10-200 mL/min, 3000 psi max, UV 190-800 nm, C18 50-100mm columns, binary gradient. Automated fraction collection at ≥95% purity threshold.
+- **Analytical HPLC**: 0.1-5.0 mL/min, 6000 psi max, DAD 190-800 nm. C18/C8/C4 columns 3-5 µm. Quaternary gradient. Autosampler with sample cooling.
+- **LC-MS**: Mass range 50-3000 m/z, resolution ≥10,000 FWHM, mass accuracy <5 ppm. ESI+/ESI- ionization.
+- **Lyophilizer**: Condenser -80°C, shelf -40 to +60°C, vacuum 0.01 mbar. 3-stage cycle: freezing → primary drying → secondary drying. Residual moisture ≤1.0%.
+- **Water System**: Type 1 ultrapure (18.2 MΩ·cm, TOC <5 ppb, endotoxin <0.001 EU/mL). RO + mixed-bed ion exchange + UV oxidation.
+
+## Process Technologies
+- **SPPS**: Fmoc/tBu strategy. Wang resin (peptide acids) or Rink Amide resin (peptide amides). HBTU/HATU/DIC+Oxyma coupling. Kaiser test monitoring. TFA/TIS/H2O (95:2.5:2.5) cleavage 2-4 h.
+- **RP-HPLC Purification**: C18 columns. ACN/H2O gradient with 0.1% TFA or NH4HCO3. Gradient 0.2-1.0% ACN/min based on peptide length.
+- **Lyophilization**: −40°C freezing → −10°C primary drying at 0.05-0.1 mbar → +25°C secondary drying at <0.02 mbar.
+- **QC Methods**: HPLC purity at 220/280 nm, ESI-MS (±0.5 Da), Karl Fischer (≤1.0%), GC-FID residual solvents, LAL endotoxin.
+
+## Quality Management
+- 4-level document hierarchy: Policy → SOPs → Work Instructions → Records
+- Batch traceability: YYYYMM-XXX lot numbering
+- Deviation/CAPA management
+- ICH Q2(R1) method validation
+- Reference standard qualification (primary ≥99%, working ≥98%)
+
+## Purity Grades
+Standard Research ≥95% | High-Precision ≥98% | Advanced Research ≥99%
+
+## Technology Platforms
+- **SDP™**: Soluble dimeric protein constructs. ELISA/SPR/BLI compatible. Mammalian expression.
+- **MAP-VLP**: Full-length membrane proteins in VLP particles. Native lipid bilayer. Mammalian expression.
+
+## Key Pages
+- Equipment: /equipment/
+- SPPS Process: /processes/peptide-synthesis/spps-process/
+- QMS: /quality/qms/quality-management-system/
+- FAQ: /faq/
+- Manufacturing: /about/manufacturing-capabilities/
+- Platforms: /platforms/

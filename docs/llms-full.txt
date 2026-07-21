@@ -1,0 +1,194 @@
+# SENO Biotechnology — Complete Technical Reference
+> https://docs.senopeptide.com
+
+## Organization
+**Registered Name**: Zhangjiakou SENO Biotechnology Co., Ltd.
+**Brand**: SENO® (Registered since 2014)
+**Location**: Zhangjiakou, China
+**Main Website**: https://www.senopeptide.com
+**Docs Domain**: https://docs.senopeptide.com
+**Focus**: Peptide research, development, and manufacturing for laboratory research
+
+## Navigation Index
+
+### Home & Core
+- Home: / (Technologies, equipment matrix, section links)
+- FAQ: /faq/ (10 Q&A covering processes, quality, equipment, platforms)
+- Tags: /tags/
+
+### Manufacturing Equipment (Spec + SOP)
+- SPPS Reactor Spec: /equipment/spps-reactor/spec-spps-reactor/
+- SPPS Reactor SOP: /equipment/spps-reactor/sop-spps-operation/
+- Prep HPLC Spec: /equipment/preparative-hplc/spec-prep-hplc/
+- Prep HPLC SOP: /equipment/preparative-hplc/sop-prep-hplc/
+- Analytical HPLC Spec: /equipment/analytical-hplc/spec-analytical-hplc/
+- Analytical HPLC SOP: /equipment/analytical-hplc/sop-analytical-hplc/
+- LC-MS Spec: /equipment/lc-ms/spec-lc-ms/
+- LC-MS SOP: /equipment/lc-ms/sop-lc-ms/
+- Lyophilizer Spec: /equipment/lyophilizer/spec-lyophilizer/
+- Lyophilizer SOP: /equipment/lyophilizer/sop-lyophilization/
+- Water Spec: /equipment/water-system/spec-water-system/
+- Water SOP: /equipment/water-system/sop-water-system/
+
+### Technical Processes
+- SPPS Solid-Phase Process: /processes/peptide-synthesis/spps-process/
+- HPLC Purification: /processes/hplc-purification/hplc-purification-process/
+- Lyophilization: /processes/lyophilization/lyophilization-process/
+- QC Methods Overview: /processes/qc-analysis/analytical-methods-overview/
+- Mass Spectrometry: /processes/mass-spec/mass-spec-analysis/
+
+### Quality Systems
+- QMS: /quality/qms/quality-management-system/
+- Method Validation: /quality/method-validation/analytical-method-validation/
+- Reference Standards: /quality/reference-standards/reference-standards-management/
+
+### Technology Platforms
+- SDP™ Platform: /platforms/sdp/sdp-platform-technology/
+- MAP-VLP Platform: /platforms/map-vlp/map-vlp-platform-technology/
+
+### About
+- Manufacturing Capabilities: /about/manufacturing-capabilities/
+- Contact: /about/contact/
+
+---
+
+## Equipment Specification Matrix
+
+### SPPS Synthesis Reactors
+| Parameter | 0.5L | 2L | 5L | 20L |
+|---|---|---|---|---|
+| Working Volume | 0.3-0.5 L | 1.2-2.0 L | 3.0-5.0 L | 12-20 L |
+| Resin Capacity | 5-15 g | 20-60 g | 50-150 g | 200-600 g |
+| Vessel Material | Borosilicate glass | Borosilicate glass | 316L SS (Ra ≤0.5 µm) | 316L SS (Ra ≤0.5 µm) |
+| Temp Control | 0-80°C ±0.5°C | 0-80°C ±0.5°C | 0-80°C ±0.5°C | 0-80°C ±0.5°C |
+| Mixing | N₂ bubbling + stir | N₂ bubbling + stir | N₂ bubbling + mechanical | N₂ bubbling + mechanical |
+| Max Pressure | 1.5 bar | 1.5 bar | 2.0 bar | 2.0 bar |
+| Control | PLC + HMI touchscreen | PLC + HMI touchscreen | PLC + HMI touchscreen | PLC + HMI touchscreen |
+
+### Preparative HPLC
+| Parameter | Specification |
+|---|---|
+| Flow Rate | 10-200 mL/min |
+| Max Pressure | 3000 psi (207 bar) |
+| UV Detection | 190-800 nm, dual wavelength |
+| Column ID | 50 mm, 100 mm |
+| Pump | Dual-piston series, ±1% flow accuracy |
+| Gradient | Binary, high-pressure mixing |
+| Fraction Collection | Automated, time or peak-based |
+
+### Analytical HPLC
+| Parameter | Specification |
+|---|---|
+| Flow Rate | 0.1-5.0 mL/min |
+| Max Pressure | 6000 psi (414 bar) |
+| Solvent Delivery | Quaternary gradient |
+| Detector | DAD 190-800 nm |
+| Injection | Autosampler, 0.1-100 µL, 4-40°C cooling |
+| Column Oven | Peltier, 10-85°C |
+| Flow Precision | <0.3% RSD |
+| Injection Precision | <0.5% RSD |
+
+### LC-MS System
+| Parameter | Specification |
+|---|---|
+| Mass Range | 50-3000 m/z |
+| Resolution | ≥10,000 FWHM |
+| Mass Accuracy | <5 ppm |
+| Ionization | ESI+ / ESI- |
+| Scan Speed | ≤10,000 Da/s |
+| Sensitivity | 1 pg reserpine S/N >100:1 |
+
+### Lyophilizer
+| Parameter | Specification |
+|---|---|
+| Condenser | −80°C |
+| Shelf Range | −40°C to +60°C |
+| Vacuum | 0.01-1.0 mbar |
+| Shelf Material | 316L SS, ±0.5 mm flatness |
+| Shelves | 4-8 (0.5-5.0 m²) |
+| Ice Capacity | 10-40 kg |
+| Temp Uniformity | ±1.0°C across shelves |
+
+### Water Purification
+| Parameter | Type 1 (Ultrapure) | Type 2 (Pure) |
+|---|---|---|
+| Resistivity | 18.2 MΩ·cm | >10 MΩ·cm |
+| TOC | <5 ppb | <50 ppb |
+| Bacteria | <0.1 CFU/mL | <10 CFU/mL |
+| Endotoxin | <0.001 EU/mL | <0.25 EU/mL |
+| Production | 10-20 L/h (RO) | — |
+
+---
+
+## Process Summary
+
+### SPPS Cycle Parameters
+| Step | Reagent | Time | Temp |
+|---|---|---|---|
+| Swelling | DMF | 30-60 min | 25°C |
+| Deprotection | 20% piperidine/DMF | 5+10 min | 25°C |
+| Coupling | AA + HBTU/HATU/DIC+Oxyma, DIPEA | 30-60 min | 25-40°C |
+| Capping | Ac₂O/DIPEA/DMF | 10 min | 25°C |
+| Cleavage | TFA/TIS/H₂O (95:2.5:2.5) | 2-4 h | 25°C |
+
+### Purification Gradient by Peptide Length
+| Length | Gradient Slope | Run Time |
+|---|---|---|
+| 5-15 aa | 1.0% ACN/min | 20-30 min |
+| 15-30 aa | 0.5% ACN/min | 30-50 min |
+| 30-50 aa | 0.3% ACN/min | 40-60 min |
+| >50 aa | 0.2% ACN/min | 60-90 min |
+
+### Lyophilization Cycle
+| Stage | Temp | Ramp | Hold | Vacuum |
+|---|---|---|---|---|
+| Freezing | −40°C | 1.0°C/min | 2-4 h | atm |
+| Primary Drying | −10°C | 0.5°C/min | 12-36 h | 0.05-0.1 mbar |
+| Secondary Drying | +25°C | 0.3°C/min | 4-8 h | <0.02 mbar |
+
+---
+
+## QC Analytical Methods
+
+| Method | Parameter | Acceptance |
+|---|---|---|
+| HPLC (220/280 nm DAD) | Purity (area%) | ≥95 / ≥98 / ≥99% |
+| ESI-MS | Molecular weight | ±0.5 Da of theoretical |
+| Karl Fischer | Water content | ≤1.0% (bulk), ≤0.5% (formulated) |
+| GC-FID headspace | Residual solvents | Per ICH Q3C |
+| LAL test | Endotoxin | <0.05 EU/mg |
+| UV or AAA | Peptide content | Report value |
+| SEC-HPLC | Aggregation | Report if applicable |
+
+## ICH Q2(R1) Validation Parameters
+Specificity (resolution ≥2.0), Linearity (R² ≥0.999), Accuracy (98-102% recovery), Precision (RSD ≤1.0%), Intermediate Precision (RSD ≤2.0%), LOD (S/N ≥3:1), LOQ (S/N ≥10:1), Robustness (≤2.0% change)
+
+## Purity Grades
+- Standard Research: ≥95% (40-60% recovery)
+- High-Precision: ≥98% (25-45% recovery)
+- Advanced Research: ≥99% (15-30% recovery)
+
+## Technology Platforms
+
+### SDP™ Soluble Dimer Protein
+- Dimeric protein constructs for interaction studies
+- Mammalian expression (HEK293)
+- Fc/His/Biotin tags available
+- Compatible with ELISA, SPR, BLI
+- Purity ≥90% by SEC-HPLC
+- Endotoxin <1.0 EU/mg
+
+### MAP-VLP Membrane Associated Protein VLP
+- Full-length multi-pass membrane proteins
+- Native lipid bilayer environment
+- Mammalian expression (HEK293)
+- VLP surface display, 100-200 nm particles
+- Purity ≥85% by SDS-PAGE
+- Storage at −80°C
+
+## QA & Compliance
+- Documented SOPs for all equipment and processes
+- Full batch traceability (YYYYMM-XXX lot numbers)
+- Deviation and CAPA management system
+- Reference standard program (primary ≥99%, retest 12mo at −20°C)
+- Method validation per ICH Q2(R1) guidelines

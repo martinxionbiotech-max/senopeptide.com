@@ -1,0 +1,184 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% set site_name = config.site_name %}
+  {% set page_title = page.title | default(site_name, true) %}
+  {% set page_desc = page.meta.get('description', config.site_description) %}
+  {% set page_type = 'TechArticle' %}
+  {% if 'platforms/' in page.url and page.url == 'platforms/' %}
+    {% set page_type = 'CollectionPage' %}
+  {% elif page.url == 'tags/' %}
+    {% set page_type = 'CollectionPage' %}
+  {% elif page.url == '' or page.url == './' %}
+    {% set page_type = 'WebPage' %}
+  {% endif %}
+  {% set canonical_url = config.site_url ~ page.url %}
+
+  <meta name="description" content="{{ page_desc }}">
+  <meta name="author" content="SENO Biotechnology">
+  <meta property="og:type" content="{{ page_type }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:site_name" content="{{ site_name }}">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_desc }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Zhangjiakou SENO Biotechnology Co., Ltd.",
+    "alternateName": "SENO Biotechnology",
+    "url": "https://www.senopeptide.com",
+    "logo": "https://www.senopeptide.com/logo.png",
+    "description": "Chinese biotechnology company focused on peptide research and development, providing advanced peptide synthesis, purification technologies, and biomolecular tools for scientific research.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Zhangjiakou",
+      "addressCountry": "CN"
+    },
+    "foundingDate": "2014",
+    "brand": {
+      "@type": "Brand",
+      "name": "SENO",
+      "description": "SENO is a registered brand providing peptide research materials and biomolecular tools."
+    }
+  }
+  </script>
+
+  <!-- WebSite + SearchAction Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site_name }}",
+    "url": "https://docs.senopeptide.com",
+    "description": "{{ config.site_description }}",
+    "about": {
+      "@type": "Organization",
+      "name": "Zhangjiakou SENO Biotechnology Co., Ltd.",
+      "url": "https://www.senopeptide.com"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.senopeptide.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Page-level Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{{ page_type }}",
+    "headline": "{{ page_title }}",
+    "description": "{{ page_desc }}",
+    "url": "{{ canonical_url }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ canonical_url }}"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Zhangjiakou SENO Biotechnology Co., Ltd.",
+      "url": "https://www.senopeptide.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Zhangjiakou SENO Biotechnology Co., Ltd.",
+      "url": "https://www.senopeptide.com",
+      "logo": "https://www.senopeptide.com/logo.png"
+    }
+  }
+  </script>
+
+  {% if page.url.startswith('equipment/') %}
+  <!-- Equipment Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "proficiencyLevel": "Expert",
+    "about": {
+      "@type": "DefinedTerm",
+      "name": "Peptide Manufacturing Equipment",
+      "inDefinedTermSet": "https://docs.senopeptide.com/tags/"
+    }
+  }
+  </script>
+  {% endif %}
+
+  {% if page.url.startswith('processes/') or page.url.startswith('quality/') %}
+  <!-- Process Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "proficiencyLevel": "Expert",
+    "about": {
+      "@type": "DefinedTerm",
+      "name": "Peptide Manufacturing Process",
+      "inDefinedTermSet": "https://docs.senopeptide.com/tags/"
+    }
+  }
+  </script>
+  {% endif %}
+
+  {% if 'sop-' in page.url %}
+  <!-- HowTo Schema for SOPs -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "{{ page_title }}",
+    "description": "{{ page_desc }}",
+    "about": {
+      "@type": "DefinedTerm",
+      "name": "Standard Operating Procedure"
+    }
+  }
+  </script>
+  {% endif %}
+
+  {% if page.url.startswith('platforms/') and page.url != 'platforms/' %}
+  <!-- Platform Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "proficiencyLevel": "Advanced",
+    "about": {
+      "@type": "DefinedTerm",
+      "name": "Biotechnology Platform"
+    }
+  }
+  </script>
+  {% endif %}
+{% endblock %}
+
+{% block footer %}
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        © 2026 Zhangjiakou SENO Biotechnology Co., Ltd. All rights reserved.
+      </div>
+      <div class="md-footer-links">
+        <a href="https://www.senopeptide.com" title="SENO Biotechnology Official Website">Official Website</a>
+        &nbsp;·&nbsp;
+        <a href="https://www.senopeptide.com/about">About</a>
+        &nbsp;·&nbsp;
+        <a href="https://www.senopeptide.com/products">Products</a>
+        &nbsp;·&nbsp;
+        <a href="https://www.senopeptide.com/contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+{% endblock %}
