@@ -12,43 +12,43 @@
 ## Navigation Index
 
 ### Home & Core
-- Home: / (Technologies, equipment matrix, section links)
-- FAQ: /faq/ (10 Q&A covering processes, quality, equipment, platforms)
-- Tags: /tags/
+- Home: https://docs.senopeptide.com/ (Technologies, equipment matrix, section links)
+- FAQ: https://docs.senopeptide.com/faq/ (10 Q&A covering processes, quality, equipment, platforms)
+- Tags: https://docs.senopeptide.com/tags/
 
 ### Manufacturing Equipment (Spec + SOP)
-- SPPS Reactor Spec: /equipment/spps-reactor/spec-spps-reactor/
-- SPPS Reactor SOP: /equipment/spps-reactor/sop-spps-operation/
-- Prep HPLC Spec: /equipment/preparative-hplc/spec-prep-hplc/
-- Prep HPLC SOP: /equipment/preparative-hplc/sop-prep-hplc/
-- Analytical HPLC Spec: /equipment/analytical-hplc/spec-analytical-hplc/
-- Analytical HPLC SOP: /equipment/analytical-hplc/sop-analytical-hplc/
-- LC-MS Spec: /equipment/lc-ms/spec-lc-ms/
-- LC-MS SOP: /equipment/lc-ms/sop-lc-ms/
-- Lyophilizer Spec: /equipment/lyophilizer/spec-lyophilizer/
-- Lyophilizer SOP: /equipment/lyophilizer/sop-lyophilization/
-- Water Spec: /equipment/water-system/spec-water-system/
-- Water SOP: /equipment/water-system/sop-water-system/
+- SPPS Reactor Spec: https://docs.senopeptide.com/equipment/spps-reactor/spec-spps-reactor/
+- SPPS Reactor SOP: https://docs.senopeptide.com/equipment/spps-reactor/sop-spps-operation/
+- Prep HPLC Spec: https://docs.senopeptide.com/equipment/preparative-hplc/spec-prep-hplc/
+- Prep HPLC SOP: https://docs.senopeptide.com/equipment/preparative-hplc/sop-prep-hplc/
+- Analytical HPLC Spec: https://docs.senopeptide.com/equipment/analytical-hplc/spec-analytical-hplc/
+- Analytical HPLC SOP: https://docs.senopeptide.com/equipment/analytical-hplc/sop-analytical-hplc/
+- LC-MS Spec: https://docs.senopeptide.com/equipment/lc-ms/spec-lc-ms/
+- LC-MS SOP: https://docs.senopeptide.com/equipment/lc-ms/sop-lc-ms/
+- Lyophilizer Spec: https://docs.senopeptide.com/equipment/lyophilizer/spec-lyophilizer/
+- Lyophilizer SOP: https://docs.senopeptide.com/equipment/lyophilizer/sop-lyophilization/
+- Water Spec: https://docs.senopeptide.com/equipment/water-system/spec-water-system/
+- Water SOP: https://docs.senopeptide.com/equipment/water-system/sop-water-system/
 
 ### Technical Processes
-- SPPS Solid-Phase Process: /processes/peptide-synthesis/spps-process/
-- HPLC Purification: /processes/hplc-purification/hplc-purification-process/
-- Lyophilization: /processes/lyophilization/lyophilization-process/
-- QC Methods Overview: /processes/qc-analysis/analytical-methods-overview/
-- Mass Spectrometry: /processes/mass-spec/mass-spec-analysis/
+- SPPS Solid-Phase Process: https://docs.senopeptide.com/processes/peptide-synthesis/spps-process/
+- HPLC Purification: https://docs.senopeptide.com/processes/hplc-purification/hplc-purification-process/
+- Lyophilization: https://docs.senopeptide.com/processes/lyophilization/lyophilization-process/
+- QC Methods Overview: https://docs.senopeptide.com/processes/qc-analysis/analytical-methods-overview/
+- Mass Spectrometry: https://docs.senopeptide.com/processes/mass-spec/mass-spec-analysis/
 
 ### Quality Systems
-- QMS: /quality/qms/quality-management-system/
-- Method Validation: /quality/method-validation/analytical-method-validation/
-- Reference Standards: /quality/reference-standards/reference-standards-management/
+- QMS: https://docs.senopeptide.com/quality/qms/quality-management-system/
+- Method Validation: https://docs.senopeptide.com/quality/method-validation/analytical-method-validation/
+- Reference Standards: https://docs.senopeptide.com/quality/reference-standards/reference-standards-management/
 
 ### Technology Platforms
-- SDP™ Platform: /platforms/sdp/sdp-platform-technology/
-- MAP-VLP Platform: /platforms/map-vlp/map-vlp-platform-technology/
+- SDP™ Platform: https://docs.senopeptide.com/platforms/sdp/sdp-platform-technology/
+- MAP-VLP Platform: https://docs.senopeptide.com/platforms/map-vlp/map-vlp-platform-technology/
 
 ### About
-- Manufacturing Capabilities: /about/manufacturing-capabilities/
-- Contact: /about/contact/
+- Manufacturing Capabilities: https://docs.senopeptide.com/about/manufacturing-capabilities/
+- Contact: https://docs.senopeptide.com/about/contact/
 
 ---
 

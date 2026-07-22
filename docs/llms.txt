@@ -35,9 +35,9 @@ Standard Research ≥95% | High-Precision ≥98% | Advanced Research ≥99%
 - **MAP-VLP**: Full-length membrane proteins in VLP particles. Native lipid bilayer. Mammalian expression.
 
 ## Key Pages
-- Equipment: /equipment/
-- SPPS Process: /processes/peptide-synthesis/spps-process/
-- QMS: /quality/qms/quality-management-system/
-- FAQ: /faq/
-- Manufacturing: /about/manufacturing-capabilities/
-- Platforms: /platforms/
+- Equipment: https://docs.senopeptide.com/equipment/
+- SPPS Process: https://docs.senopeptide.com/processes/peptide-synthesis/spps-process/
+- QMS: https://docs.senopeptide.com/quality/qms/quality-management-system/
+- FAQ: https://docs.senopeptide.com/faq/
+- Manufacturing: https://docs.senopeptide.com/about/manufacturing-capabilities/
+- Platforms: https://docs.senopeptide.com/platforms/
